@@ -10,13 +10,13 @@ gem 'bson', '~> 1.5.1'
 gem 'bson_ext', '~> 1.4.0'
 
 gem 'rails-backbone', "~> 0.5.3"
+
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-
-
 # Gems used only for assets and not required
 # in production environments by default.
+
 group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
@@ -33,6 +33,7 @@ group :test, :development do
   gem 'database_cleaner', '~> 0.6.7'
   gem 'jasmine', '~> 1.0.2.1'
 end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
